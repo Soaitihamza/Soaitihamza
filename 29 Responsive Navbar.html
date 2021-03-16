@@ -1,0 +1,180 @@
+<html>
+<head>
+	<meta charset="utf-8">
+				<meta name="viewport" content="width=devic-width,initial-scale=1.0">
+	<title>Responsive Navbar</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<style>
+		
+		a{
+			color: white !important;
+		}
+		#icon{
+			width: 100%;
+			text-align: center;
+			margin-top: 10px;
+			margin-top: 40px;
+		}
+		#icon img{
+			height:40px;
+			width: 70px;
+			margin: 10px;
+			margin-bottom: 16px;
+			border-bottom: 3px solid gray;
+		}
+		 #icon img:hover{
+			width:75px;
+			 height: 45px;
+			border-bottom:3px solid white;
+		}
+		 a:hover{
+			background-color: brown !important;
+		}
+		</style>
+	</head>
+	
+	<body>
+		
+	<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: brown !important">
+  <div class="container-fluid">
+ <a class="navbar-brand" href="#">
+      <img src="chien.jpg" alt="" width="40" height="40" style="border-radius:50px;">
+			 ANIMALS
+    </a>  
+	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: flex-end">
+      <ul class="navbar-nav">
+		  
+		   <li class="nav-item" style="margin-right: 250px;">
+          <a class="nav-link" href="Login.html"  >SING IN</a>
+        </li>
+		  <li class="nav-item" style="margin-right: 250px;">
+          <a class="nav-link" href="Sign%20up.html">SING UP</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="29%20Responsive%20Navbar.html">HOME</a>
+        </li>
+       
+		   <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">ANIMALS
+
+			   </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: brown">
+            <li><a class="dropdown-item" href="https://unsplash.com/s/photos/pets" style="color: white!important">PETS</a></li>
+            <li><a class="dropdown-item" href="https://unsplash.com/s/photos/predators" style="color: white!important"> PREDATORS</a></li>
+            <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/List_of_animal_sounds" style="color:white">Voices of animals</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">CONTACT US</a>
+        </li>
+		 
+			  
+      </ul>
+    </div>
+		</div> 
+</nav>
+		<main>
+			
+			<article style="justify-content: center; display: flex">
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="max-width: 600px">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="chien.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="cheval.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="beer.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+		</article>
+			
+			<article style="justify-content: center; display: flex;margin-top:30px">
+			<div class="row row-cols-1 row-cols-md-3 g-4" style="max-width:1100px;">
+		<div class="card" style="width: 18rem;">
+  <img src="chien.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">DOG</h5>
+    <p class="card-text">The domestic dog (Canis familiaris or Canis lupus familiaris)[5] is a domesticated form of wolf. The dog descended from an ancient, extinct wolf,[6][7] with the modern wolf being the dog's nearest living relative.[8] The dog was the first species to be domesticated[9][8] by hunter–gatherers more than 15,000 years ago,[7] prior to the development of agriculture</p>
+    <a href="#"  class="btn btn-danger">Learn more</a>
+  </div>
+</div>
+				<div class="card" style="width: 18rem;">
+  <img src="cheval.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">HORSE</h5>
+    <p class="card-text">The horse (Equus ferus caballus)[2][3] is a domesticated odd-toed ungulate mammal. It belongs to the taxonomic family Equidae and is one of two extant subspecies of Equus ferus. The horse has evolved over the past 45 to 55 million years from a small multi-toed creature, Eohippus, into the large, single-toed animal of today.</p>
+    <a href="#" class="btn btn-danger">Learn more</a>
+  </div>
+</div>
+				<div class="card" style="width: 18rem;">
+  <img src="beer.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">BEER</h5>
+    <p class="card-text"> Bears are carnivoran mammals of the family Ursidae. They are classified as caniforms, or doglike carnivorans. Although only eight species of bears are extant, they are widespread, appearing in a wide variety of habitats throughout the Northern Hemisphere and partially in the Southern Hemisphere. Bears are found on the continents of North America, South America, Europe, and Asia. Common characteristics of modern bears include large bodies with stocky legs, long snouts, small rounded ears, shaggy hair, plantigrade paws with five nonretractile claws, and short tails.</p>
+    <a href="#"  class="btn btn-danger">Learn more</a>
+  </div>
+</div>
+				</div>
+			
+			</article>
+		</main>
+
+	<footer class="text-center text-white" style="background-color:brown;">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Iframe -->
+    <section class="">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-6">
+          <div class="ratio ratio-16x9">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/dN_au2KHffk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Iframe -->
+  </div>
+		  <article id="icon">
+		<img src="fac.png">
+		<img src="wha.png">
+		<img src="ins.png">
+		<img src="you.png">		
+			</article>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2021 Copyright:
+    <a class="text-white" href="https://www.pexels.com/search/animals/">ANIMALS.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+		
+		
+		
+		
+		
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+	</body>
+</html>
